@@ -1,0 +1,261 @@
+✅Mate you are doing very good. Trust yourself and enjoy the process
+       
+        ✅ Detail documentaion (Introduction)
+
+❓1️⃣What is React?
+👉Js library to build dynamic and interactive user interfaces
+👉Developed by facebook in 2011
+👉Currently most widely used JS library for front-end development
+👉Used to create single page application.(SPA)
+
+2️⃣Working of DOM 
+👉 Browser takes HTML and create DOM.
+👉 Js helps us modify DOM based on user actions or events.
+👉 In big applications, working with DOM becomes complicated.
+
+3️⃣Problems with JavaScript
+👉React has a simpler mental model
+👉JS is cumbersome (time consuming)
+👉Js is Error-prone
+👉Js is hard to maintain
+
+❓React Learning Reasons:-
+👉Efficient and lightweight
+
+4️⃣Working of React
+👉No need to worry about querying and updating DOM
+👉React creates a web page with small and reuseable components
+👉React will take care of creating and updating DOM elements
+👉IT saves a lot of time, things are simple and code are alreadt written.
+
+5️⃣JS Vs React
+👉JS is imperative: You define steps to reach your your desire state.
+👉 React is Declarative: You define the target UI state and then reach out how to reach that state.
+
+❓How to use React?
+👉 Create components, and make data if you need it, link the data and change data whenever you want, react will reactt whenever there is change in data.
+
+6️⃣ Introduction to components
+👉Components helps us to write reuseable
+👉modular 
+👉better organized
+
+🙏React application is a tree of component with App Component as the root bringing everything together.
+
+❓When is React used?
+👉Whenever we are creating a app of little higher level with loads of ongoing stuff with the use of reuseable components
+
+
+         ✅Create a React App
+
+7️⃣ Setup IDE
+👉 1. IDER stands for Integrated Development Environment.
+👉 2. Software suite that consolidates basic tools required for software development
+👉 3. Central hub for coding, finding problems and testing.
+👉 4. Designed to improve developer efficiency.
+    
+    7️⃣.1️⃣ Need of IDE
+    👉 1. Streamlines development
+    👉 2. Increases productivity
+    👉 3. Simplifies complex tasks.
+    👉 4. Offers a unifies workspace.
+    👉 5. IDE Features
+          5.1 Code Autocomplete
+          5.2 Syntax Highlighting
+          5.3 Version COntrol
+          5.4 Error Checking
+
+    7️⃣.2️⃣ Install latest Node
+    7️⃣.3️⃣ Install latest VS Code
+
+8️⃣ Create a React App (CRA)
+👉 1. Official tool is CRA(Create React App)
+👉 2. Vite is a modern tool to create React Project
+👉 3. Vite produces Quick and Small bundle size.
+👉 4. Vite: Use npm run dev to launch dev server.
+👉 5. Use npm start for CRA.
+
+
+9️⃣ Project Structure
+👉 1. node_modules/ has all the installed node packages
+👉 2. public/Directory: Contains static files that dont change.
+👉 3. src/ Directory : Main folder for the React code.
+    3.1 components/:Reusable parts of the UI, like buttons or headers.
+    3.2 assets/: Images, font, and other static files.
+    3.3 styles/:CSS or stylesheets.
+👉 4. package.json contains information about this project like name, version, dependencies on other react packages.
+👉 5. vite.config.js contains vite config.
+
+      
+          ✅Creating React Components
+          
+ 🔟File Extensions
+  👉.Js 
+      * Stands for JavaScript
+      * Contains regular JavaScript code
+      * Used for general logic and components
+
+  👉.JSX 
+      * Stands for JavaScript XML
+      * Combines JavaScript with HTML-like tags
+      * Makes it easier to design UI components
+
+
+
+
+
+
+ 1️⃣1️⃣ Class vs Function Components
+ 1️⃣2️⃣ What is JSX?
+ 1️⃣3️⃣ Exporting component
+ 1️⃣4️⃣ Oher important Points
+ 1️⃣5️⃣ Dynamic Components
+ 1️⃣6️⃣ Reusable Components
+
+
+ 1️⃣7️⃣
+ 1️⃣8️⃣
+ 9️⃣2️⃣0️⃣         
+
+
+
+
+❓Where to start React and where to run?
+👉 We will use VS-Code Editior to write a code and Chrome to run the code.
+
+❓Things to do before writing code in VS-Code
+👉Installing Vite and before that you must have downloaded node.
+
+❓
+👉npm create vite@latest
+
+❓
+👉Go to cmd and open the folder by cd in our case its react
+
+❓within cmd, inside react type..
+👉 npm create vite@latest
+
+❓
+👉Need to install the following packages:
+  create-vite@5.1.0
+Ok to proceed? (y)
+
+❓? Project name: » vite-project
+👉? Project name: » IstReact
+
+❓
+👉
+C:\Users\Rajan Aryal#\Desktop\React>npm create vite@latest
+√ Project name: ... IstReact
+√ Package name: ... istreact
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+❓
+👉C:\Users\Rajan Aryal#\Desktop\React>cd IstReact
+
+C:\Users\Rajan Aryal#\Desktop\React\IstReact>npm i
+
+
+❓
+👉added 270 packages, and audited 271 packages in 1m
+
+97 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Rajan Aryal#\Desktop\React\IstReact>
+
+
+❓
+👉PS C:\Users\Rajan Aryal#\Dropbox\My PC (LAPTOP-0IPFI41A)\Desktop\React\IstReact> npm run dev
+
+❓Actually now we deleted React folder which was inside desktop because it was giving an error
+👉PS C:\Users\Rajan Aryal#\Dropbox\My PC (LAPTOP-0IPFI41A)\Desktop\IstReact>
+
+❓We delete everything inside App.jsx
+👉We downloaded the extension called ES7+ React/Redux/React-Native snippets
+
+
+❓
+👉And then we went inside App.jsx and write rfce and enter and there will be component
+
+
+
+👉Open cmd and chage directory to desktop because we want to make app on the desktop
+👉cd desktop
+
+❓
+👉npm create vite@latest
+
+❓What if, we are creating the app for first time?
+👉Need to install the following packages:
+  create-vite@5.1.0
+Ok to proceed? (y)
+
+❓
+👉? Project name: » GoReact
+
+❓ok, how is the final look?
+👉
+C:\Users\Rajan Aryal#\Desktop>npm create vite@latest
+√ Project name: ... GoReact
+√ Package name: ... goreact
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\Users\Rajan Aryal#\Desktop\GoReact...
+
+Done. Now run:
+  cd GoReact
+  npm install
+  npm run dev
+
+## DO everything IN CMD BECAUSE IT WILL MAKE EASY
+
+
+❓What are in number 28, 29, and 30
+👉 Well these given by cmd itself and says that we are good to make app
+
+❓Whats the next step?
+👉 Heading to code Editor. And open the folder we just created, GoReact
+
+
+❓
+👉Will run npm i, on the terminal, inour case it can be opened by ctrl+j
+
+❓What is the output when you run, npm i?
+👉PS C:\Users\Rajan Aryal#\Dropbox\My PC (LAPTOP-0IPFI41A)\Desktop\GoReact> npm i
+added 270 packages, and audited 271 packages in 1m
+97 packages are looking for funding
+  run `npm fund` for details
+found 0 vulnerabilities
+PS C:\Users\Rajan Aryal#\Dropbox\My PC (LAPTOP-0IPFI41A)\Desktop\GoReact> 
+
+❓Any extension do we need to download?
+👉 Yes, if you have not:- ES7+ React/Redux/React-Native snippets
+
+❓Next?
+👉And then we went inside App.jsx after deleting everything, we write rfce and enter and there will be component
+
+// just to let you know, make sure this app is not inside another folder, make sure the root folder is itself GoReact, else it may create problem at the beginning
+
+❓When is to wtite, npn run dev?
+👉You can write anythime after installing npm, once you run npn run dev there will be link to the local host.
+
+❓What is component?
+👉Component is a function which returns jsx. Example:-
+        function App() {
+          return (
+            <div>App</div>
+          )
+        }
+
+❓ What is jsx?
+👉 jsx is very similar to html with superpowers. Example
+    <div>App</div>
+
+    
+❓
+👉
